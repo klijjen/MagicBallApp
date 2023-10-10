@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CD0F92C2AD5F31100F112E5 /* Gill Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gill Sans.ttf"; sourceTree = "<group>"; };
 		EC745B572A828CBD00B1785B /* MagicBallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC745B5A2A828CBD00B1785B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC745B5C2A828CBD00B1785B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CD0F92B2AD5EF7C00F112E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CD0F92C2AD5F31100F112E5 /* Gill Sans.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		EC745B4E2A828CBD00B1785B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +65,7 @@
 		EC745B592A828CBD00B1785B /* MagicBallApp */ = {
 			isa = PBXGroup;
 			children = (
+				8CD0F92B2AD5EF7C00F112E5 /* Fonts */,
 				EC745B5A2A828CBD00B1785B /* AppDelegate.swift */,
 				EC745B5C2A828CBD00B1785B /* SceneDelegate.swift */,
 				EC745B5E2A828CBD00B1785B /* ViewController.swift */,
